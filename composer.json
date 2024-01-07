@@ -1,0 +1,28 @@
+{
+    "name": "s4mpp/my-account",
+    "description": "Account panel for laravel apps",
+    "autoload": {
+        "psr-4": {
+            "S4mpp\\Laraguard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel P.",
+            "email": "s4mpp.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "s4mpp/laraguard": "^1.0",
+        "s4mpp/element": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "S4mpp\\MyAccount\\Providers\\MyAccountServiceProvider"
+            ]
+        }
+    }
+}
